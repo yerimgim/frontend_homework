@@ -1,4 +1,4 @@
-import Home from '../feature/Home';
+import Home from '../components/Home';
 
 const App = () => {
   return (
