@@ -26,13 +26,13 @@ const Metrics = () => {
 const MetricsContainer = styled.div`
   margin-left: 300px;
   padding-top: 150px;
-  color: var(--large-font-color);
+  color: var(--metrics-font-color);
   letter-spacing: -1px;
   animation: ${fadeInUp} 700ms ease-in-out 100ms;
 
   div {
     margin-bottom: 20px;
-    font-size: var(--large-font-size);
+    font-size: var(--metrics-font-size);
   }
 `;
 

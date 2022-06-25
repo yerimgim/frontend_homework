@@ -15,8 +15,8 @@ const LogoContent = styled.div`
   background-image: url('assets/triple2x.png');
   background-repeat: no-repeat;
   background-size: 400px 338px;
-  color: var(--medium-font-color);
-  font-size: var(--medium-font-size);
+  color: var(--logo-font-color);
+  font-size: var(--logo-font-size);
   text-align: center;
   box-sizing: border-box;
   animation: ${fadeInUp} 700ms ease-in-out 0ms;

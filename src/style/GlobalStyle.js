@@ -2,15 +2,13 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --small-font-size: 14px;
-    --medium-font-size: 15px;
-    --large-font-size: 36px;
+    --awards-font-size: 14px;
+    --logo-font-size: 15px;
+    --metrics-font-size: 36px;
 
-    --small-font-color: rgba(58, 58, 58, 0.8);
-    --medium-font-color: rgba(58, 58, 58, 0.7);
-    --large-font-color: rgb(58, 58, 58);
-
-    --small-font-line-height: 22px;
+    --awards-font-color: rgba(58, 58, 58, 0.8);
+    --logo-font-color: rgba(58, 58, 58, 0.7);
+    --metrics-font-color: rgb(58, 58, 58);
   }
 
 

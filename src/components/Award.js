@@ -8,7 +8,6 @@ const Award = () => {
       <GoogleAward>
         2018 구글 플레이스토어 <br />
         올해의 앱 최우수상 수상
-        <p />
       </GoogleAward>
       <AppleAward>
         2018 애플 앱스토어 <br />
@@ -31,10 +30,10 @@ const AwardList = styled.div`
     background-size: 54px 54px;
     background-position: left top;
     background-repeat: no-repeat;
-    font-size: var(--small-font-size);
+    font-size: var(--awards-font-size);
     font-weight: bold;
-    color: var(--small-font-color);
-    line-height: 22px;
+    color: var(--awards-font-color);
+    line-height: var(--awards-line-height);
   }
 `;
 
