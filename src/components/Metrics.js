@@ -26,6 +26,8 @@ const Metrics = () => {
 const MetricsContainer = styled.div`
   margin-left: 300px;
   padding-top: 150px;
+  color: var(--large-font-color);
+  letter-spacing: -1px;
   animation: ${fadeInUp} 700ms ease-in-out 100ms;
 
   div {
