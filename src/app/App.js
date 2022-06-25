@@ -19,13 +19,9 @@ const App = () => {
 };
 
 const Section = styled.section`
-  display: flex;
+  position: relative;
   max-width: 1200px;
   margin: 0px auto;
-
-  section {
-    width: 50%;
-  }
 `;
 
 const InfoContainer = styled.div`

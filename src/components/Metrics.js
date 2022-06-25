@@ -16,9 +16,8 @@ const Metrics = () => {
 };
 
 const MetricsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-left: 300px;
+  padding-top: 150px;
 
   div {
     margin-bottom: 20px;

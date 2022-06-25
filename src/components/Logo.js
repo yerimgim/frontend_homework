@@ -5,16 +5,18 @@ const Logo = () => {
 };
 
 const LogoContent = styled.div`
+  position: absolute;
+  top: 150px;
   width: 400px;
   height: 338px;
   padding-top: 280px;
-  box-sizing: border-box;
   background-image: url('assets/triple2x.png');
   background-repeat: no-repeat;
   background-size: 400px 338px;
+  color: var(--medium-font-color);
   font-size: var(--medium-font-size);
   text-align: center;
-  color: var(--medium-font-color);
+  box-sizing: border-box;
 `;
 
 export default Logo;
