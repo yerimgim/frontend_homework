@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 import { fadeInUp } from '../style/keyframes/keyframes';
 
 const Award = () => {
@@ -7,7 +8,7 @@ const Award = () => {
       <GoogleAward>
         2018 구글 플레이스토어 <br />
         올해의 앱 최우수상 수상
-        <p></p>
+        <p />
       </GoogleAward>
       <AppleAward>
         2018 애플 앱스토어 <br />

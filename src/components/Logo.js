@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 import { fadeInUp } from '../style/keyframes/keyframes';
 
 const Logo = () => {

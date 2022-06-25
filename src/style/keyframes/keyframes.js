@@ -8,7 +8,6 @@ export const fadeInUp = keyframes`
 
   50% {
     opacity: 0.6;
-
     transition: 700ms ease-in-out;
   }
 

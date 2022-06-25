@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import Award from '../components/Award';
 
+import Award from '../components/Award';
 import Logo from '../components/Logo';
 import Metrics from '../components/Metrics';
 

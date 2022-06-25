@@ -1,17 +1,24 @@
 import styled from 'styled-components';
+
+import useCountUp from '../common/hooks/useCountUp';
+// import useInterval from '../common/hooks/useInterval';
 import { fadeInUp } from '../style/keyframes/keyframes';
 
 const Metrics = () => {
+  const users = useCountUp(700);
+  const reviews = useCountUp(100);
+  const schedules = useCountUp(470);
+
   return (
     <MetricsContainer>
       <div>
-        <strong>700만 명</strong>의 여행자
+        <strong>{users}만 명</strong>의 여행자
       </div>
       <div>
-        <strong>100만 개</strong>의 여행리뷰
+        <strong>{reviews}만 개</strong>의 여행리뷰
       </div>
       <div>
-        <strong>470만 개</strong>의 여행 일정
+        <strong>{schedules}만 개</strong>의 여행 일정
       </div>
     </MetricsContainer>
   );
