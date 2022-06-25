@@ -13,8 +13,8 @@ const LogoContent = styled.div`
   height: 338px;
   padding-top: 280px;
   background-image: url('assets/triple2x.png');
-  background-repeat: no-repeat;
   background-size: 400px 338px;
+  background-repeat: no-repeat;
   color: var(--logo-font-color);
   font-size: var(--logo-font-size);
   text-align: center;

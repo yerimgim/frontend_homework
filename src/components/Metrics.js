@@ -10,13 +10,13 @@ const Metrics = () => {
 
   return (
     <MetricsContainer>
-      <div>
+      <div className="metric-item">
         <strong>{users}만 명</strong>의 여행자
       </div>
-      <div>
+      <div className="metric-item">
         <strong>{reviews}만 개</strong>의 여행 리뷰
       </div>
-      <div>
+      <div className="metric-item">
         <strong>{schedules}만 개</strong>의 여행 일정
       </div>
     </MetricsContainer>
@@ -27,12 +27,12 @@ const MetricsContainer = styled.div`
   margin-left: 300px;
   padding-top: 150px;
   color: var(--metrics-font-color);
+  font-size: var(--metrics-font-size);
   letter-spacing: -1px;
   animation: ${fadeInUp} 700ms ease-in-out 100ms;
 
-  div {
+  .metric-item {
     margin-bottom: 20px;
-    font-size: var(--metrics-font-size);
   }
 `;
 

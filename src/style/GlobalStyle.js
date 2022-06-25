@@ -9,6 +9,8 @@ const GlobalStyle = createGlobalStyle`
     --awards-font-color: rgba(58, 58, 58, 0.8);
     --logo-font-color: rgba(58, 58, 58, 0.7);
     --metrics-font-color: rgb(58, 58, 58);
+
+    --awards-line-height: 22px;
   }
 
 

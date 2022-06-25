@@ -30,9 +30,9 @@ const AwardList = styled.div`
     background-size: 54px 54px;
     background-position: left top;
     background-repeat: no-repeat;
+    color: var(--awards-font-color);
     font-size: var(--awards-font-size);
     font-weight: bold;
-    color: var(--awards-font-color);
     line-height: var(--awards-line-height);
   }
 `;
