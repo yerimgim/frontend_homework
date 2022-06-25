@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { fadeInUp } from '../style/keyframes/keyframes';
 
 const Award = () => {
   return (
@@ -19,6 +20,7 @@ const Award = () => {
 const AwardList = styled.div`
   margin: 50px 0 140px 300px;
   white-space: nowrap;
+  animation: ${fadeInUp} 700ms ease-in-out 200ms;
 
   div {
     display: inline-block;

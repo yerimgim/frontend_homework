@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { fadeInUp } from '../style/keyframes/keyframes';
+
 const Metrics = () => {
   return (
     <MetricsContainer>
@@ -18,6 +20,7 @@ const Metrics = () => {
 const MetricsContainer = styled.div`
   margin-left: 300px;
   padding-top: 150px;
+  animation: ${fadeInUp} 700ms ease-in-out 100ms;
 
   div {
     margin-bottom: 20px;

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { fadeInUp } from '../style/keyframes/keyframes';
 
 const Logo = () => {
   return <LogoContent>2021년 12월 기준</LogoContent>;
@@ -17,6 +18,7 @@ const LogoContent = styled.div`
   font-size: var(--medium-font-size);
   text-align: center;
   box-sizing: border-box;
+  animation: ${fadeInUp} 700ms ease-in-out 0ms;
 `;
 
 export default Logo;
