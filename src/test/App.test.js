@@ -18,4 +18,12 @@ describe('<App />', () => {
 
     expect(strongTag).toBeInTheDocument();
   });
+
+  it('App 컴포넌트가 section 태그의 style을 테스트합니다. ', () => {
+    const { container } = render(<App />);
+    const sectionTag = container.querySelector('section');
+
+    expect(sectionTag).toHaveStyle('position: relative;');
+    expect(sectionTag).toHaveStyle('max-width: 1200px;');
+  });
 });
