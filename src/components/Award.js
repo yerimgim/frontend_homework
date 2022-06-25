@@ -32,6 +32,7 @@ const AwardList = styled.div`
     background-position: left top;
     background-repeat: no-repeat;
     font-size: var(--small-font-size);
+    font-weight: bold;
     color: var(--small-font-color);
     line-height: 22px;
   }
