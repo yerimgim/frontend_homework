@@ -6,7 +6,7 @@ import Metrics from '../components/Metrics';
 afterEach(cleanup);
 
 describe('<Metrics />', () => {
-  it('Metrics 컴포넌트의 metric-items의 class를 총 갯수를 테스트합니다', () => {
+  it('Metrics 컴포넌트의 metric-items의 class의 총 갯수를 테스트합니다', () => {
     const { container } = render(<Metrics />);
     const metricItems = container.getElementsByClassName('metric-item');
 

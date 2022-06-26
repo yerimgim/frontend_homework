@@ -19,7 +19,7 @@ const LogoContent = styled.figure`
   font-size: var(--logo-font-size);
   text-align: center;
   box-sizing: border-box;
-  animation: ${fadeInUp} 700ms ease-in-out 0ms;
+  animation: ${fadeInUp} 700ms ease-out 0ms;
 `;
 
 export default Logo;

@@ -22,7 +22,7 @@ const Award = () => {
 const AwardList = styled.ul`
   margin: 50px 0 140px 300px;
   white-space: nowrap;
-  animation: ${fadeInUp} 700ms ease-in-out 200ms;
+  animation: ${fadeInUp} 700ms ease-out 200ms;
 
   li {
     display: inline-block;

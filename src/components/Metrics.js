@@ -29,7 +29,7 @@ const MetricsContainer = styled.article`
   color: var(--metrics-font-color);
   font-size: var(--metrics-font-size);
   letter-spacing: -1px;
-  animation: ${fadeInUp} 700ms ease-in-out 100ms;
+  animation: ${fadeInUp} 700ms ease-out 100ms;
 
   .metric-item {
     margin-bottom: 20px;
