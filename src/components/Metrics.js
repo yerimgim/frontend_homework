@@ -10,20 +10,20 @@ const Metrics = () => {
 
   return (
     <MetricsContainer>
-      <div className="metric-item">
+      <p className="metric-item">
         <strong>{users}만 명</strong>의 여행자
-      </div>
-      <div className="metric-item">
+      </p>
+      <p className="metric-item">
         <strong>{reviews}만 개</strong>의 여행 리뷰
-      </div>
-      <div className="metric-item">
+      </p>
+      <p className="metric-item">
         <strong>{schedules}만 개</strong>의 여행 일정
-      </div>
+      </p>
     </MetricsContainer>
   );
 };
 
-const MetricsContainer = styled.div`
+const MetricsContainer = styled.article`
   margin-left: 300px;
   padding-top: 150px;
   color: var(--metrics-font-color);

@@ -6,7 +6,7 @@ const Logo = () => {
   return <LogoContent>2021년 12월 기준</LogoContent>;
 };
 
-const LogoContent = styled.div`
+const LogoContent = styled.figure`
   position: absolute;
   top: 150px;
   width: 400px;

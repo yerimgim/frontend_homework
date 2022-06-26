@@ -19,12 +19,12 @@ const Award = () => {
   );
 };
 
-const AwardList = styled.div`
+const AwardList = styled.ul`
   margin: 50px 0 140px 300px;
   white-space: nowrap;
   animation: ${fadeInUp} 700ms ease-in-out 200ms;
 
-  div {
+  li {
     display: inline-block;
     height: 54px;
     margin-right: 39px;
@@ -39,11 +39,11 @@ const AwardList = styled.div`
   }
 `;
 
-const GoogleAward = styled.div`
+const GoogleAward = styled.li`
   background-image: url('assets/play-store2x.png');
 `;
 
-const AppleAward = styled.div`
+const AppleAward = styled.li`
   background-image: url('assets/badge-apple4x.png');
 `;
 

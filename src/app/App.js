@@ -24,7 +24,7 @@ const Section = styled.section`
   margin: 0px auto;
 `;
 
-const InfoContainer = styled.div`
+const InfoContainer = styled.section`
   margin-left: 300px;
 `;
 
