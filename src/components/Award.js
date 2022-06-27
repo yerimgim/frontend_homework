@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { fadeInUp } from '../style/keyframes/keyframes';
+import { fadeInUp } from '../styles/keyframes/keyframes';
 
 const Award = () => {
   return (

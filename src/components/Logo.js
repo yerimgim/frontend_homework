@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { fadeInUp } from '../style/keyframes/keyframes';
+import { fadeInUp } from '../styles/keyframes/keyframes';
 
 const Logo = () => {
   return <LogoContent>2021년 12월 기준</LogoContent>;

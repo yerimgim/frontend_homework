@@ -14,7 +14,6 @@
   "scripts": {
     "lint:es": "eslint '**/*.{js,ts,tsx}'",
     "lint:es:fix": "npm run lint:es -- --fix",
-    "fix-lints": "standardx src/**/*.ts src/**/*.tsx --fix",
     "prettier": "prettier '**/*.{json,yaml,md}' --check",
     "prettier:fix": "prettier '**/*.{json,yaml,md}' --write",
     "start": "react-scripts start",
@@ -44,16 +43,7 @@
     "@titicaca/eslint-config-triple": "^3.1.0",
     "eslint": "^8.18.0",
     "eslint-plugin-promise": "^6.0.0",
-    "lint-staged": "^13.0.2",
     "prettier": "^2.7.1",
     "standard": "^17.0.0"
-  },
-  "lint-staged": {
-    "**/*.{js,ts,tsx}": [
-      "eslint"
-    ],
-    "**/*.{json,yaml,md}": [
-      "prettier --check"
-    ]
   }
 }

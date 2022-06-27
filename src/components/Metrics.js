@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import useCountUp from '../common/hooks/useCountUp';
-import { fadeInUp } from '../style/keyframes/keyframes';
+import { fadeInUp } from '../styles/keyframes/keyframes';
 
 const Metrics = () => {
   const users = useCountUp(700);
