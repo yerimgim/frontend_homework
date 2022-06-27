@@ -5,12 +5,13 @@ import easeOutAnimate from '../utils/easeOutAnimate';
 
 const useCountUp = (value) => {
   const [count, setCount] = useState(0);
-  const rate = constants.countUpRate;
-  const duration = constants.constUpDuration;
-  const total = Math.round(duration / rate);
-  let start = 0;
 
   useEffect(() => {
+    const rate = constants.countUpRate;
+    const duration = constants.constUpDuration;
+    const total = Math.round(duration / rate);
+    let start = 0;
+
     const counter = setInterval(() => {
       start++;
       const progress = easeOutAnimate(start / total);
@@ -22,7 +23,7 @@ const useCountUp = (value) => {
         clearInterval(counter);
       }
     }, rate);
-  }, [value, rate, total, start]);
+  }, [value]);
 
   return count;
 };

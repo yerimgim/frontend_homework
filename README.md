@@ -2,7 +2,7 @@
 
 <br />
 
-![사전과제 gif](https://user-images.githubusercontent.com/95286903/175789644-523c3c46-b755-477f-b146-76a57c2ad33c.gif)
+![트리플사전과제gif](https://user-images.githubusercontent.com/95286903/175886402-f7b08057-bdb5-4d6c-b418-0c3dcaa1b090.gif)
 
 <br />
 
@@ -43,7 +43,6 @@ http://localhost:3000/ 에서 확인이 가능합니다.
 ## 디렉토리 구조
 
 ```
-.
 ├── README.md
 ├── package-lock.json
 ├── package.json
